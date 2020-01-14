@@ -1,0 +1,24 @@
+{
+  "name": "nlist-stopwatchjs",
+  "version": "1.0.0",
+  "description": "Simple stopwatch library",
+  "main": "stopwatch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indavidjool/nlist-stopwatchjs.git"
+  },
+  "keywords": [
+    "setInterval",
+    "stopwatch",
+    "running"
+  ],
+  "author": "Ray Maritz <ray.maritz@nlist.com.au> (https://nlist.com.au)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indavidjool/nlist-stopwatchjs/issues"
+  },
+  "homepage": "https://github.com/indavidjool/nlist-stopwatchjs#readme"
+}
