@@ -56,7 +56,7 @@ stopWatch.setConfig = {
 ```
 #### ```stopWatch.calculatePace```
 a getter that returns an Array containing the pace at every distancemarker based on the elapsed time.
-### ```stopWatch.getTickerTime```
+#### ```stopWatch.getTickerTime```
 a getter that returns the last time setInterval executed the callback.  Use JavaScript ```.toLocaleTimeString()``` to convert to localized time format.
 #### ```stopWatch.getElapsedTime```
 a getter returning the time elapsed from the start time to the last time setInterval executed the callback.
