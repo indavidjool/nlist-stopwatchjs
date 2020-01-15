@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Simple stopwatch library",
   "type": "module",
-  "main": "index.js",
+  "main": "stopwatch.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
