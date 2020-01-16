@@ -3,7 +3,7 @@ A simple JavaScript library implementing a stopwatch typically used in timing mi
 ## Background
 Note this is a simple stopwatch timer using the setInterval function, be aware of the [caveats](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval) when using.
 ## Installation
-To use with the browser:
+### To use with the browser:
 ```html
 <script src="path/to/yourCopyOf/stopwatch.js"></script>
 ```
@@ -12,6 +12,11 @@ you can also import the named exports stopWatch and msToTime from stopwatch.js u
 ```javascript
 import { stopWatch, msToTime } from './path/to/yourCopyOf/stopwatch.js';
 ```
+### To use with node:
+Install using ```npm i nlist-stopwatchjs```
+
+Script was written with ES6 modules. You can load using ```node -r esm main.js``` to enable ```import``` of the ES6 module.
+
 ## Usage
 `stopwatch.js` exports the stopWatch object and the msToTime function.
 
